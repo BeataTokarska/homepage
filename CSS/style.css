@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #fff;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* .mainText__table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    margin: 52px auto;
+}
+
+.mainText__table--caption {
+    caption-side: top;
+    text-align: center
+}
+
+.mainText__table--cell {
+    border: 3px dashed rebeccapurple;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.mainText__table--header {
+    color: white font-weiht: normal;
+} */
+
+
+
+.dark {
+    color: #ffffff;
+    background: #67678c;
+}
+
+.biggerLetters {
+    font-size: 30px;
+}

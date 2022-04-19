@@ -1,0 +1,21 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    margin: 52px auto;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center
+}
+
+.table__cell {
+    border: 3px dashed rebeccapurple;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.table__header {
+    color: white font-weiht: normal;
+}

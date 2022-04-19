@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beata T - pierwsza strona o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/mainText.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/photo.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js">    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header"> Dziś przedstawię wam siebie :) </h1>
+        <h2>Jak widać poniżej jestem szczęśliwą osobą :)</h2>
+    </header>
+    <nav class="nav">
+        <a href="#o-mnie" class="nav__links"> O mnie</a>
+        <a href="#wolne-chwile" class="nav__links"> Wolne chwile</a>
+        <a href="#na-codzień" class="nav__links"> Na co dzień</a>
+        <a href="#inspirujące-cytaty" class="nav__links"> Inspirujące cytaty</a>
+    </nav>
+    <div class="photo">
+        <img width="500" src="https://i.postimg.cc/qRqbk1Pr/Beata-T-zdjecie.jpg" alt="moje aktualne zdjecie">
+        <p>
+            <button class="photo__button">Jeśli nie podoba Ci się moja aparycja, kliknij ten guizik :)</button>
+        </p>
+    </div>
+    <main id="o-mnie" class="mainText">
+        <h3 class="mainText__titles">O mnie</h3>
+        <p>Imię Beata pochodzi z języka łacińskiego. Wywodzi się od słowa <i>„beatus”</i>, które oznacza
+            <i>„szczęśliwy”,
+                „błogosławiony”</i>. Zatem Beata musi być kobietą, o której można powiedzieć, że jest urodzoną w czepku.
+        </p>
+        <button class="mainText__buttonBiggerLetters"> Kliknij i <span class="themeNameBiggerLetters ">powiększ</span>
+            informacje o mnie
+        </button>
+        <div class="mainText__aboutMe">
+
+            <p>
+                W chwili obecnej mieszkam wraz ze swoją rodziną w mieście na <strong>Podlasiu</strong>.
+                <br>
+                Jednak jeszczcze niespełna trzy lata temu można było mnie szukać na Wyspach Brytyjskich, a dokładnie w
+                środkowej Anglii.
+                <span class="mainText__aboutMe mainText__aboutMe--interestingElement">Mimo, iż moje wykształcenie
+                    wskazuję, że powinnam pracować w turystyce,
+                    to nigdy nie pracowałam w zawodzie. Obecnie jestem zatrudniona w firmie zajmującej się
+                    bankowością.</span>
+                Tak jak większość uczestników tego kursu, już wkrótce zamierzam w życiu zawodowym bardziej związać się z
+                programowaniem.
+            </p>
+            <p>
+                Na ten moment liczba moich dzieci to 3, mąż niezmiennie pozostanie jeden i ten sam :), w przyszłości
+                prawdopodobnie dołączy do nas jakieś miłe zwierzę.
+            </p>
+        </div>
+        <h3 class="mainText__titles" id="wolne-chwile">Wolne chwile</h3>
+        <p>Jak każdy ciężko pracujący człowiek uwielbiam wakacje, w szczególności relaksuje mnie widok morza.
+            Jednym z mażeń jest odwiedzenie wszystkich kontynentów<br>
+        <p>Podróżnicze cele:</p>
+        <div class="mainText_destinations">
+            <ul>
+                <li>kontynenty już odwiedzone:
+                    <ul class="mainText_destinations mainText_destinations--list">
+                        <li>Europa</li>
+                        <li>Ameryka Północna</li>
+                        <li>Azja</li>
+                    </ul>
+                </li>
+                <li>na liście oczekującej pozostają w szczególności:
+                    <ul class="mainText_destinations mainText_destinations--list">
+                        <li>USA</li>
+                        <li>Australia</li>
+                        <li>Tajlandia</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h3 class="mainText__titles" id="na-codzień">Na co dzień</h3>
+        <p>Codzienność sprawia, że każdy dzień ucieka mi szybko. Gdy znajdę wolną chwilę uwielbiam kosztować nowych
+            dań w restauracjach, przeczytać wciągającą książkę <b>( najlepiej trzymający w napięciu kryminał)</b>,
+            czy też obejrzeć cikawy vlog lub serial. W ubiegłym roku zdobyłam swój pierwszy medal w bieganiu,
+            niestety musiałam zrobić sobię przerwę ze wzglądów zdrowotnych.
+        </p>
+        <!-- <div>
+            <table class="mainText__table">
+                <caption class="mainText__table mainText__table--caption">Ostatnio widziane, przeczytane:</caption>
+                <tr>
+                    <th class="mainText__table mainText__table--cell
+                     mainText__table mainText__table--header" scope="row">seriale</th>
+                    <td class="mainText__table mainText__table--cell">Emily in Paris</td>
+                    <td class="mainText__table mainText__table--cell">Squit Game</td>
+                    <td class="mainText__table mainText__table--cell">Familly business</td>
+                </tr>
+                <tr>
+                    <th class="mainText__table mainText__table--cell mainText__table mainText__table--header"
+                        scope="row">vlogi</th>
+                    <td class="mainText__table mainText__table--cell">Vlog Casha</td>
+                    <td class="mainText__table mainText__table--cell">Bez planu</td>
+                    <td class="mainText__table mainText__table--cell">Przez świat na Fazie</td>
+                </tr>
+                <tr>
+                    <th class="mainText__table--cell mainText__table--header" scope="row">ksiażki</th>
+                    <td class="mainText__table--cell">uprowadzona</td>
+                    <td class="mainText__table--cell"> 7 lat póżniej</td>
+                    <td class="mainText__table--cell">za zamkniętymi drzwiami</td>
+                </tr>
+            </table>
+        </div> -->
+
+        <div>
+            <table class="table">
+                <caption class="table__caption">Ostatnio widziane, przeczytane:</caption>
+                <tr>
+                    <th class="table__cell
+                     table__header" scope="row">seriale</th>
+                    <td class="table__cell">Emily in Paris</td>
+                    <td class="table__cell">Squit Game</td>
+                    <td class="table__cell">Familly business</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header"
+                        scope="row">vlogi</th>
+                    <td class="table__cell">Vlog Casha</td>
+                    <td class="table__cell">Bez planu</td>
+                    <td class="table__cell">Przez świat na Fazie</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">ksiażki</th>
+                    <td class="table__cell">uprowadzona</td>
+                    <td class="table__cell"> 7 lat póżniej</td>
+                    <td class="table__cell">za zamkniętymi drzwiami</td>
+                </tr>
+            </table>
+        </div>
+        <h3 class="mainText__titles" id="inspirujące-cytaty">Inspirujące cytaty </h3>
+        <div class="mainText__quotes">
+            <ul>
+                <li>You will never win if you never begin. - Helen Rowland</li>
+                <li>If you can dream it, you can do it - Walt Disney</li>
+                <li>Set your goals high, and don't stop till you get ther- Bo Jackson</li>
+            </ul>
+        </div>
+        <h3 class="mainText__titles">Opcje</h3>
+        <button class="mainText__buttonDark"> Włącz <span class="themeNameDark"> Ciemny </span> motyw</button>
+
+    </main>
+    <footer>kontakt:<a href="mailto:BT@gmail.com">BT@gmail.com</a></footer>
+</body>
+
+</html>

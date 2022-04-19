@@ -1,0 +1,14 @@
+.nav {
+    color: #c21db4;
+    background-color: #c1b1c963;
+    border: 3px dashed rebeccapurple;
+    margin: 20px 50px;
+    padding: 15px 25px;
+
+
+}
+
+.nav__links {
+    margin: 50px;
+    text-decoration: none;
+}
