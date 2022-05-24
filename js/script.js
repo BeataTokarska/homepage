@@ -21,7 +21,14 @@
         themeNameBiggerLetters.innerText = body.classList.contains("biggerLetters") ? "zmniejsz" : "powieksz"
 
     };
+    const onRemovePhoto = () => {
+        const photoButton = document.querySelector(".photo__button");
 
+        const photo = document.querySelector(".photo");
+        photoButton.addEventListener("click", () => {
+            photo.remove();
+        });
+    }
     const init = () => {
         const buttonDark = document.querySelector(".mainText__buttonDark");
         buttonDark.addEventListener("click", onChangeBackgroundClick);
@@ -34,23 +41,12 @@
         onRemovePhoto();
     };
 
-    const onRemovePhoto = () => {
-        const photoButton = document.querySelector(".photo__button");
-
-        const photo = document.querySelector(".photo");
-        photoButton.addEventListener("click", () => {
-            photo.remove();
-        });
+    
 
 
-    }
-
-
+    
     init();
 }
-
-
-let header = document.querySelector(".header");
 
 
 
